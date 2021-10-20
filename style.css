@@ -2,3 +2,35 @@
     Subj:       
     By:         Virgilio D. Cabading Jr.
     ////////////////////////////////////////////////// */
+
+.main_container {
+    /* background-color: green; */
+    height: 800px;
+}
+
+/* //// NAV BAR //// */
+
+.nav {
+    background-color: darkslategray;
+    color: white;
+}
+
+.nav div a {
+    color: white;
+}
+
+.nav div button {
+    background-color: lightseagreen;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* //// MAIN CONTENT //// */
+
+.main_content {
+    background-color: yellow;
+    height: 600px;
+}
+
