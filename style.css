@@ -20,7 +20,7 @@
 }
 
 .nav div button {
-    background-color: lightseagreen;
+    background-color: dodgerblue;
 }
 
 .bold {
@@ -30,7 +30,40 @@
 /* //// MAIN CONTENT //// */
 
 .main_content {
-    background-color: yellow;
     height: 600px;
 }
 
+/* **** LEFT COLUMN **** */
+
+.left_column {
+}
+
+.card {
+    height: 200px;
+    margin: 10px 0px;
+}
+
+.user_header {
+    background-color: dodgerblue;
+    height: 100px;
+}
+
+.education_header {
+    background-color: darkslategray;
+    color: white;
+    padding: 1%;
+}
+
+.header {
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+/* **** RIGHT COLUMN **** */
+
+.right_column {
+}
