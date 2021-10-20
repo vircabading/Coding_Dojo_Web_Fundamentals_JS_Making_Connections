@@ -39,13 +39,41 @@
 }
 
 .card {
-    height: 200px;
     margin: 10px 0px;
 }
 
 .user_header {
     background-color: dodgerblue;
+    padding: 10px 0px 0px 10px;
+}
+
+.user_header>img {
     height: 100px;
+    width: auto;
+    margin-bottom: -50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.card>.flex_down>* {
+    margin: 10px 0px 10px 0px;
+}
+
+.card>.flex_down>h1 {
+    padding-top: 40px;
+}
+
+.icon {
+    height: 20px;
+}
+
+.input_bar {
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 1px;
+    padding-right: 30px;
 }
 
 .education_header {
