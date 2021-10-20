@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--//////////////////////////////////////////////////
+    Subj:       Coding Dojo > Web Fundamentals > CSS
+    Project:    Profile Page
+    By:         Virgilio D. Cabading Jr.
+    Created:    October 13, 2021
+    //////////////////////////////////////////////////-->
+<html lang="en">
+
+<!--//// HEAD ////////////////////////////////////////-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">                <!-- Link to CSS -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Profile</title>
+</head>
+
+<!--//// BODY ////////////////////////////////////////-->
+<body>
+    <!-- //// NAV BAR ////////////////////////////////-->
+    <div id="nav_bar" class="container align_center bg_blue_steel ft_white">
+        <div class="gutter"></div>
+        <!-- //// NAV BAR LEFT COLUMN ////////////////-->
+        <div class="left_column container justify_left align_center">
+            <h1>Profile</h1>
+            <a class="nav_bar_a ft_white" href="index.html">Home</a>
+            <a class="nav_bar_a ft_white" href="https://github.com/Virgilio-D-Cabading-Jr">My Profile</a>
+            <a class="nav_bar_a ft_white" href="mailto:virgilio.d.cabading.jr@gmail.com">My Connections</a>
+        </div>
+
+        <!-- //// NAV BAR RIGHT COLUMN ///////////////-->
+        <div class="right_column">
+            <button class="sign_out_button bg_dodger ft_dodger">Sign Out</button>   <!-- Sign out button -->
+        </div>
+        <div class="gutter"></div>
+    </div>
+    
+    <!-- //// MAIN CONTENT AREA ///////////////////////-->
+    <div id="main_content" class="container">
+        <div class="gutter"></div>
+        <!-- //// MAIN CONTENT LEFT COLUMN ////////////-->
+        <div class="left_column">
+            <!-- //// USER CARD ///////////////////////-->
+            <div class="user_card">
+                <div class="header bg_dodger">                  <!-- Header with User Image -->
+                    <img class="user_image" src="images/vigilio-c.jpg" alt="user image">
+                </div>
+                <div class="content container flex_down">
+                    <div class="content_container">             <!-- User Name -->
+                        <h2>Virgilio D. Cabading Jr.<h2>
+                    </div>
+                    <div class="content_container container flex_right">    <!-- User Location -->
+                        <img class="icon" src="icons/map-marker.png" alt="map-marker">
+                        <h3>Vallejo, CA<h3>
+                    </div>
+                    <div class="content_container">             <!-- User attributes -->
+                        Developer | Engineer | Problem Solver | Highly Motivated <br>
+                        Master of shadows and the Internet!
+                    </div>
+                    <div class="content_container container flex_right">    <!-- Edit profile -->
+                        <img class="icon"  src="icons/gear.png" alt="gears icon">
+                        <a class="ft_dodger" href=""><h3>Edit Profile</h3></a>
+                    </div>
+                </div>
+            </div>
+            <!-- //// GENERAL CONTENT /////////////////-->
+            <div class="general_content_card bd_navy">          <!-- Education Card Header-->
+                <div class="header bg_blue_steel">
+                    <h2>Education</h2>
+                </div>
+                <div class="content container flex_down">       <!-- Latest Education -->
+                    <div class="content_container">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    </div>
+                    <div class="date ft_dodger content_container"><h3>Oct 2021 - Feb 2022</h3></div>
+                    <div class="content_container">
+                        Able to code a full stack using Phython, JAVA, and MERN.
+                        Highest level 3 black-belt rating.
+                        Able to reverse engineer code and algorithms.
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        <!-- //// MAIN CONTENT RIGHT COLUMN ///////////-->
+        <div class="right_column">
+            <!-- CONNECTIONS REQUEST CARD /////////////-->
+            <div class="general_content_card bd_navy">
+                <div class="header container bg_blue_steel justify_space">      <!-- Connection Request Header -->
+                    <div class="connection_icon bg_dodger ft_white">2</div>
+                    <div class="info_text ft_white">Connection Requests</div>
+                </div>
+                <div class="content container flex_down">
+                    <div class="content_container container justify_space width_inherit">   <!-- Connection Request -->
+                        <img class="connection_img" src="https://yt3.ggpht.com/ytc/AKedOLR_fAK3kE29EYichzZfqsi_iGxYWZtu3NLz8WSFFQ=s900-c-k-c0x00ffffff-no-rj" alt="Peppa">
+                        <h3>Peppa Pig</h3>
+                        <img class="icon" src="icons/accept-circle.png" alt="accept">
+                        <img class="icon" src="icons/close-circle.png" alt="reject">
+                    </div>
+                    <div class="content_container container justify_space  width_inherit">  <!-- Connection Request -->
+                        <img class="connection_img" src="https://trek.report/wp-content/uploads/2021/01/picard-shakespeare.jpg" alt="jean luc">
+                        <h3>Jean Luc</h3>
+                        <img class="icon" src="icons/accept-circle.png" alt="accept">
+                        <img class="icon" src="icons/close-circle.png" alt="reject">
+                    </div>
+                </div>
+            </div>
+            <!-- CONNECTIONS CARD //////////////////////-->
+            <div class="general_content_card bd_navy">
+                <div class="header container bg_blue_steel justify_space">      <!-- Connections Header -->
+                    <div class="connection_icon bg_dodger ft_white">64</div>
+                    <div class="info_text ft_white">Your Connections</div>
+                </div>
+                <div class="content container flex_down">
+                    <div class="content_container container justify_space width_inherit">   <!-- Connection -->
+                        <img class="connection_img" src="https://i1.sndcdn.com/artworks-000045449137-fcbrrr-t500x500.jpg" alt="strong bad">
+                        <h3>Strong Bad</h3>
+                        <img class="icon" src="icons/close-circle.png" alt="reject">
+                    </div>
+                    <div class="content_container container justify_space width_inherit">   <!-- Connection -->
+                        <img class="connection_img" src="https://data.whicdn.com/images/339188827/original.jpg" alt="steve">
+                        <h3>Steve</h3>
+                        <img class="icon" src="icons/close-circle.png" alt="reject">
+                    </div>
+                    <div class="content_container container justify_space width_inherit">   <!-- Connection -->
+                        <img class="connection_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRRCNIqpMMwhhQ4lcNVVgcQqkHdBvzQmdxogBSYxmu8J95yxDkRq316dtU9qOqzxKqooU&usqp=CAU" alt="Vincenzo">
+                        <h3>Vincenzo</h3>
+                        <img class="icon" src="icons/close-circle.png" alt="reject">
+                    </div>
+                    <div class="content_container container justify_space width_inherit">   <!-- Connection -->
+                        <img class="connection_img" src="https://64.media.tumblr.com/5c84428f7b80b8085abafbeb1beb5736/tumblr_nrsm6ajqgu1sxhdxso1_640.png" alt="Ice Bear">
+                        <h3>Ice Bear</h3>
+                        <img class="icon" src="icons/close-circle.png" alt="reject">
+                    </div>
+                    <div class="content_container container justify_center width_inherit">  <!-- More Items link -->
+                        <a class="ft_dodger" href=""><h3>More Items</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gutter"></div>
+    </div>
+</body>
+</html>
