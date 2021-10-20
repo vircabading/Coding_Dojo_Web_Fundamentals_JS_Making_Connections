@@ -185,8 +185,16 @@ h3 {
     padding: 1%;
 }
 
+.pad_10 {
+    padding: 10px;
+}
+
 .margin_1 {
     margin: 1%;
+}
+
+.margin_10 {
+    margin:10px;
 }
 
 /*  //// BORDER ////////////////////////////////////////////////// */

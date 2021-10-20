@@ -35,7 +35,8 @@
 
 /* **** LEFT COLUMN **** */
 
-.left_column {
+.card_content {
+    padding: 10px;
 }
 
 .card {
@@ -94,4 +95,26 @@
 /* **** RIGHT COLUMN **** */
 
 .right_column {
+}
+
+.connection_requests_count {
+    background-color: dodgerblue;
+    padding: 4px 10px 4px 10px;
+    border-radius: 50%;
+}
+
+.your_connections_count {
+    background-color: dodgerblue;
+    padding: 4px 10px 4px 10px;
+    border-radius: 50%;
+}
+
+.view_more {
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 2px 0px 0x 0px;
+}
+
+.connections {
+    display: flex;
 }
