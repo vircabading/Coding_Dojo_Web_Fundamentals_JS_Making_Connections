@@ -66,12 +66,8 @@ body {
 .card {
     border-style: solid;
     border-width: 2px;
-    border-color: dodgerblue;
 }
 
-.header {
-    background-color: dodgerblue;
-}
 
 /*      ---- Flex Direction ---------------------------------------- */
 
@@ -125,17 +121,14 @@ body {
 
 .col_1 {
     flex: 1;
-    margin: 0px 1%;
 }
 
 .col_2 {
     flex: 2;
-    margin: 0px 1%;
 }
 
 .col_3 {
     flex: 3;
-    margin: 0px 1%;
 }
 
 /*  //// WIDTH ///////////////////////////////////////////////////// */
@@ -181,16 +174,8 @@ h3 {
 
 /* //// PADDING AND MARGINS ////////////////////////////////////// */
 
-.pad_1 {
-    padding: 1%;
-}
-
 .pad_10 {
     padding: 10px;
-}
-
-.margin_1 {
-    margin: 1%;
 }
 
 .margin_10 {
@@ -207,4 +192,8 @@ h3 {
 
 .db_rounded {
     border-radius: 10px;
+}
+
+.bg_blue {
+    background-color: blue;
 }

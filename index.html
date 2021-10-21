@@ -23,14 +23,12 @@
         <div class="nav flex_row justify_between pad_1">
 
             <!-- ---- LOGO ---- -->
-            <div>
-                <h1>
-                    Profile
-                </h1>
-            </div>
+            <h1 class="pad_10">
+                Profile
+            </h1>
 
             <!-- ----- LINKS AND SIGN OUT ---- -->
-            <div class="container flex_row justify_space wdt_50">
+            <div class="container flex_row justify_space align_center wdt_50">
                 <a href="">
                     Home
                 </a>
@@ -58,7 +56,7 @@
                         <img src="images/jane-m.jpg" alt="jane doe picture">
                     </div>
                     <div class="flex_down pad_1">
-                        <h1>
+                        <h1 id="user_name">
                             Jane Doe
                         </h1>
                         <div class="container flex_row align_center">
@@ -73,8 +71,8 @@
                         </h3>
                         <div class="flex_row align_center">
                             <img class="icon" src="icons/gear.png" alt="">
-                            <input class="input_bar" type="text" value="Enter User Name Here">
-                            <a href="">edit profile</a>
+                            <input type="text" name="enter_new_profile_name" id="enter_new_profile_name" placeholder="Enter New Profile Name" size="30">
+                            <button class="edit_profile_button" onclick="renameUser()"><h3>edit profile</h3></button>
                         </div>
                     </div>
                 </div>
@@ -109,9 +107,25 @@
                     </div>
                     <div class="card_content flex_down">
                         <div class="connection_requests">
-
+                            <div class="container align_center pad_10 wdt_70">
+                                <img class="connection_img" src="images/todd-s.jpg" alt="todd s">
+                                <h2>Todd S</h1>
+                            </div>
+                            <div class="flex_row justify_space align_center margin_10">
+                                <img class="icon" src="icons/accept-circle.png" alt="accept">
+                                <img class="icon" src="icons/close-circle.png" alt="decline">
+                            </div>
                         </div>
-
+                        <div class="connection_requests">
+                            <div class="container align_center pad_10 wdt_70">
+                                <img class="connection_img" src="images/arry-s.jpg" alt="arry s">
+                                <h2>Arry S</h1>
+                            </div>
+                            <div class="flex_row justify_space align_center margin_10">
+                                <img class="icon" src="icons/accept-circle.png" alt="accept">
+                                <img class="icon" src="icons/close-circle.png" alt="decline">
+                            </div>
+                        </div>
                     </div>
                     <div class="view_more">
                         <a href="">
@@ -128,8 +142,23 @@
                             Your Connections
                         </h2>
                     </div>
-                    <div>
-
+                    <div class="card_content container flex_down">
+                        <div class="container align_center pad_10 wdt_70">
+                                <img class="connection_img" src="images/phil-s.jpg" alt="phil" s">
+                                <h2>Phil S</h1>
+                        </div>
+                        <div class="container align_center pad_10 wdt_70">
+                            <img class="connection_img" src="images/anne-s.jpg" alt="anne s">
+                            <h2>Anne S</h1>
+                        </div>
+                        <div class="container align_center pad_10 wdt_70">
+                            <img class="connection_img" src="images/adrien-s.jpg" alt="adrien s">
+                            <h2>Adrien S</h1>
+                        </div>
+                        <div class="container align_center pad_10 wdt_70">
+                            <img class="connection_img" src="images/alayne-s.jpg" alt="alayne s">
+                            <h2>Alayne S</h1>
+                        </div>
                     </div>
                 </div>
             </div>

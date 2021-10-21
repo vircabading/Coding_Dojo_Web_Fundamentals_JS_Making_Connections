@@ -15,6 +15,7 @@
     color: white;
 }
 
+
 .nav div a {
     color: white;
 }
@@ -112,9 +113,30 @@
 .view_more {
     border-style: solid;
     border-color: dodgerblue;
-    border-width: 2px 0px 0x 0px;
+    border: 2px;
+    margin-top: 5px;
+    /* background-color: red; */
+}
+
+.connection_img {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.connection_requests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .connections {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.edit_profile_button {
+    text-decoration: underline;
 }
