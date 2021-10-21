@@ -12,8 +12,7 @@ function renameUser() {                                                         
 
 function removeConnection (element) {
     var tempID = element.id;
-    tempID = parseInt(tempID);                                                        // Retrieve the connection id
-    console.log("In removeConnection function, tempID is:", tempID);
+    tempID = parseInt(tempID);                                                  // Retrieve the connection ID
 
-    document.getElementById(tempID + "-connection").remove();
+    document.getElementById(tempID + "-connection").remove();                   // Remove the connection using connection ID
 }
