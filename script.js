@@ -21,6 +21,8 @@ function removeConnection (element) {
     var yourConnectionsObject = document.getElementById("your-connections-count");
     // console.log("Your connections count is: " + yourConnectionsObject.innerText);
 
-    yourConnectionsObject.innerHTML = parseInt(yourConnectionsObject.innerHTML) + 1;
-
+    tempID = element.id;                                                        // Reset temp ID back to Element ID
+    if (tempID.length == 16) {                                                  // If temp ID = "accept-id"
+        yourConnectionsObject.innerHTML = parseInt(yourConnectionsObject.innerHTML) + 1;    // then add One to Your Connections Count
+    }
 }
