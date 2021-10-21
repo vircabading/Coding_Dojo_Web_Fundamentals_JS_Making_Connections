@@ -12,18 +12,10 @@ function renameUser() {                                                         
 
 function removeConnection (element) {
     var tempID = element.id;
-
-    var count = document.getElementById("connection-requests-count").innerHTML;
-    count = parseInt(count);
-    count--;
-
-    // var connectionRequests = document.getElementById('connection-requests-count').innerText; 
-    // parseInt(connectionRequests);
-
-
-    console.log("Connection requests # is: " + count);
-    document.getElementById("connection-requests-count").innerHTML = count;
-
     tempID = parseInt(tempID);                                                  // Retrieve the connection ID
     document.getElementById(tempID + "-connection").remove();                   // Remove the connection using connection ID
+
+    var connectionRequestsObject = document.getElementById("connection-requests-count");    // Get Connection Requests Object
+    connectionRequestsObject.innerHTML = parseInt(connectionRequestsObject.innerHTML) - 1;  // Decrease Connection Requests by one
+    
 }
