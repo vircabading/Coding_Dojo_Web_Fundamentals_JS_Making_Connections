@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////
-// Subj:   
-// By:      Virgilio D. Cabading Jr.
+// Subj:   Coding Dojo > Web Fundamentals > Javascript > Making Connections
+// By:     Virgilio D. Cabading Jr.    Created: October 19, 2021
 //////////////////////////////////////////////////
 
 function renameUser() {                                                         // Function that renames the User

@@ -1,6 +1,6 @@
 /*  //////////////////////////////////////////////////
-    Subj:       
-    By:         Virgilio D. Cabading Jr.
+    Subj:   Coding Dojo > Web Fundamentals > Javascript > Making Connections
+    By:     Virgilio D. Cabading Jr.    Created: October 19, 2021
     ////////////////////////////////////////////////// */
 
 .main_container {
@@ -94,9 +94,6 @@
 }
 
 /* **** RIGHT COLUMN **** */
-
-.right_column {
-}
 
 .connection_requests_count {
     background-color: dodgerblue;
