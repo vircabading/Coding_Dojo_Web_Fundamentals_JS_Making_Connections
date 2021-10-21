@@ -17,5 +17,10 @@ function removeConnection (element) {
 
     var connectionRequestsObject = document.getElementById("connection-requests-count");    // Get Connection Requests Object
     connectionRequestsObject.innerHTML = parseInt(connectionRequestsObject.innerHTML) - 1;  // Decrease Connection Requests by one
-    
+
+    var yourConnectionsObject = document.getElementById("your-connections-count");
+    // console.log("Your connections count is: " + yourConnectionsObject.innerText);
+
+    yourConnectionsObject.innerHTML = parseInt(yourConnectionsObject.innerHTML) + 1;
+
 }
